@@ -1,0 +1,23 @@
+{
+  "name": "cognito-api-authentication",
+  "description": " ",
+  "private": true,
+  "scripts": {
+    "start": "node scripts/registerUsers.js && node scripts/getAccessTokens.js"
+  },
+
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/notonthehighstreet/AWS-Cognito-API-Authentication.git"
+  },
+  "dependencies": {
+    "amazon-cognito-identity-js": "^1.19.0",
+    "async": "^2.5.0",
+    "aws-sdk": "^2.119.0",
+    "cognito-user-pool": "^0.1.13",
+    "json2csv": "^3.11.2",
+    "sleep": "^5.1.1",
+    "spread_sheet": "^2.2.1",
+    "unique-random": "^1.0.0"
+  }
+}
