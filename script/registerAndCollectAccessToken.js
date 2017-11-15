@@ -18,7 +18,6 @@ AWS.config.update({ accessKeyId: '', secretAccessKey: ''});
 var userPool = new CognitoUserPool({ UserPoolId: '', ClientId: ''});
 
 // Create Users
-
 var numberOfUsersToCreate = 100;
 
 for (var i = 0; i < numberOfUsersToCreate; i++) {
