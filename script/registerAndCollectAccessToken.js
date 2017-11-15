@@ -17,7 +17,7 @@ AWS.config.region = 'eu-west-1';
 AWS.config.update({ accessKeyId: '', secretAccessKey: ''});
 var userPool = new CognitoUserPool({ UserPoolId: '', ClientId: ''});
 
-// Create Users
+// Create Cognito Users
 var numberOfUsersToCreate = 100;
 
 for (var i = 0; i < numberOfUsersToCreate; i++) {
