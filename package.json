@@ -3,7 +3,7 @@
   "description": " ",
   "private": true,
   "scripts": {
-    "start": "node scripts/registerUsers.js && node scripts/getAccessTokens.js"
+    "start": "node script/registerAndCollectAccessToken.js"
   },
 
   "repository": {
